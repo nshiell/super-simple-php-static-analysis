@@ -1,0 +1,1 @@
+docker exec -t container-name php /var/www/.container/dev/goto.php $@

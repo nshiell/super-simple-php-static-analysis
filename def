@@ -1,0 +1,1 @@
+docker exec -t container-name php /var/www/.container/dev/def.php $@ | grep --invert-match 'loaded in Unknown on line 0'
